@@ -25,6 +25,6 @@ function App() {
 }
 
 // map local files to what's inside a docker container
-// docker run - it - p 3000: 3000 - v /app/node_modules - v $(pwd):app bd036fa25085
+// docker run -it -p 3000: 3000 -v /app/node_modules -v $(pwd):app bd036fa25085
 
 export default App;
